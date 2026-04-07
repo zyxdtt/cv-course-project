@@ -163,6 +163,3 @@ Mat unevenIlluminationEnhance(const Mat& src,
 
 - OpenCV (core, imgproc, highgui, videoio)
 - C++11 or later
-
-
-这个 README 涵盖了系统功能、算法原理、函数接口、参数配置、使用方法和性能预期，可以直接放在您的项目仓库中。需要调整或补充任何内容请告诉我。
