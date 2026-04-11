@@ -262,7 +262,7 @@ int video_enhancement() {
 	double fps = 0;
 	auto lastTime = chrono::steady_clock::now();
 	while (true) {
-		auto frameStart = chrono::steady_clock::now();  // 开始计时
+		auto frameStart = chrono::steady_clock::now(); 
 		cap >> frame;
 		if (frame.empty()) {
 			cout << "Cannot read frame!" << endl;
